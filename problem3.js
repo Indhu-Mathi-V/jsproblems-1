@@ -17,7 +17,8 @@ function findeIntersection(arr1,arr2){
 const array1=[1,2,3,4,5]
 const array2=[3,2,5,6,7]
 const numbers=findeIntersection(array1,array2);
-console.log(numbers)
+console.log(numbers)//Time Complexity: O(n*m) and Space Complexity: O(min(n,m)
+
 
 //Palindrome Check
 
@@ -29,7 +30,8 @@ function isPalindrome(str){
     const strings1=strings===str
     return strings1
 }
-console.log(isPalindrome("kayak"))
+console.log(isPalindrome("kayak"))////Time Complexity: O(n) and Space Complexity: O(n)
+
 
 // Largest Element
 
@@ -41,4 +43,5 @@ function isLargest(largeNum){
 
 }
 let numbers1=[1,5,5,6,7,8,3]
-console.log(isLargest(numbers1))
+console.log(isLargest(numbers1))//Time Complexity: O(n) and Space Complexity: O(n)
+
